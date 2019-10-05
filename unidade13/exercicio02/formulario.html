@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <title>Curso HTML5 Essencial</title>
+
+    <link href="css/estilo.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+
+    <h2>Formulário</h2>
+    <form action="destino.html" method="post">
+        <!--<label for="name">First Name</label>-->
+        <input type="text" name="name" id="name" size="30" maxlength="100" required autofocus placeholder="Firs Name">
+
+        <!--<label for="nameLast">Last Name</label>-->
+        <input type="text" name="nameLast" id="nameLast" size="30" maxlength="100" required placeholder="Last Name">
+
+        <label for="birthday">Birthday</label>
+        <input type="date" name="birthday" id="birthday" size="30" required>
+
+        <!--<label for="password">Password</label>-->
+        <input type="password" name="password" id="password" size="30" maxlength="100" required placeholder="Password">
+
+        <!--<label for="telephone">Telephone</label>-->
+        <input type="tel" name="telephone" id="telephone" size="30" maxlength="100" required placeholder="Telephone">
+
+        <!--<label for="email">E-mail</label>-->
+        <input type="email" name="email" id="email" size="30" maxlength="100" required placeholder="E-mail">
+
+        <input type="number" name="children" id="children" min="0" max="10" value="0">
+
+        <!--<label for="website">Web Site (Optional)</label>-->
+        <input type="url" name="website" id="website" size="30" maxlength="100" placeholder="Web Site (Optional)">
+
+        <!-- Type define submit para enviar, Value para o nome do botão, id  -->
+        <input type="submit" value="Send" id="send" name="send">
+    </form>
+
+</body>
+
+</html>
